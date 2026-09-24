@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Claude Code local settings
+.claude/
+
+# Model artifacts (generated, not checked in)
+ml-system/ml/model/
+ml-system/ml/data/
+
+# Secret files
+.env
+
+# Misc
+.DS_Store
+*.log
+
+# Generated scenario data (recreated by run_eval.py)
+target-system/data/
+
+# Runtime agent state
+hypothesis_graph.json
